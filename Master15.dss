@@ -4,7 +4,6 @@ new circuit.MasterBEC15 ! Name of file MasterBEC15
 !~ Angle=30  MVAsc3=2000000 MVASC1=2100000 ! to make an infinite source
 !Redirect loadshapes.DSS
 Redirect Transformers.txt 
-Redirect Lines.txt
 !Redirect Loads.txt
 Redirect Load3.txt
 !Redirect Capacitors.txt
