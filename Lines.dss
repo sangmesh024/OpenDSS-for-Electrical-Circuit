@@ -1,0 +1,19 @@
+!LINE CODE FOR IEEE-15 BUS RADIAL DISTRIBUTION SYSTEM BEGINS HERE
+New linecode.mtxrabbit nphases=3 BaseFreq=50 
+~ rmatrix = (0.6686 | 0.04935 0.6686 | 0.04935 0.04935 0.6686 ) 
+~ xmatrix = (0.7780 | 0.40418 0.7780 | 0.41564 0.41564 0.77800 ) 
+~ units=km 
+
+
+!LINE DEFINITIONS 
+New Line.1-2    Phases=3 Bus1=SourceBus.1.2.3   Bus2=2.1.2.3  LineCode=mtxrabbit Length=0.0770 units=km 
+New Line.2-3    Phases=3 Bus1=2.1.2.3    Bus2=3.1.2.3  LineCode=mtxrabbit Length=0.126  units=km    
+New Line.3-4    Phases=3 Bus1=3.1.2.3    Bus2=4.1.2.3  LineCode=mtxrabbit Length=0.010 units=km 
+New Line.4-5    Phases=3 Bus1=4.1.2.3    Bus2=5.1.2.3  LineCode=mtxrabbit Length=0.298 units=km 
+New Line.5-6    Phases=3 Bus1=5.1.2.3    Bus2=6.1.2.3  LineCode=mtxrabbit Length=0.126  units=km 
+New Line.1-7    Phases=3 Bus1=SourceBus.1.2.3   Bus2=7.1.2.3    LineCode=mtxrabbit Length=0.0804  units=km 
+New Line.7-8    Phases=2 Bus1=7.1.2.3      Bus2=8.1.2.3    LineCode=mtxrabbit Length=0.148  units=km 
+
+
+
+

@@ -1,0 +1,22 @@
+!LOAD DEFINITIONS FOR IEEE-15 BUS RADIAL DISTRIBUTION SYSTEM
+New Load.9a Bus1=9.1     Phases=1 Conn=Wye   Model=8 kV=0.415  kW=3.995   kvar=1.318
+New Load.9b Bus1=9.2     Phases=1 Conn=Wye   Model=8 kV=0.415  kW=0.803   kvar=0.265 
+New Load.9c Bus1=9.3     Phases=1 Conn=Wye   Model=8 kV=0.415  kW=6.581   kvar=2.17  
+New Load.10a Bus1=10.1   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=8.467   kvar=2.8  
+New Load.10b Bus1=10.2   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=1.567   kvar=0.517  
+New Load.10c Bus1=10.3   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=2.476   kvar=0.817  
+New Load.11a Bus1=11.1   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=12.50   kvar=4.125  
+New Load.11b Bus1=11.2   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=3.50    kvar=1.155  
+New Load.11c Bus1=11.3   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=4.0     kvar=1.32  
+New Load.12a Bus1=12.1   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=10.52   kvar=3.471  
+New Load.12b Bus1=12.2   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=12.15   kvar=4.00  
+New Load.12c Bus1=12.3   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=9.995   kvar=3.3  
+New Load.13a Bus1=13.1   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=2.48    kvar=0.818  
+New Load.13b Bus1=13.2   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=0.75    kvar=0.247  
+New Load.13c Bus1=13.3   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=0.931   kvar=0.307 
+New Load.14a Bus1=14.1   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=6.277   kvar=2.071 
+New Load.14b Bus1=14.2   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=8.061   kvar=2.66  
+New Load.14c Bus1=14.3   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=7.821   kvar=2.58 
+New Load.15a Bus1=15.1   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=20.669  kvar=6.82  
+New Load.15b Bus1=15.2   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=21.588  kvar=7.124 
+New Load.15c Bus1=15.3   Phases=1 Conn=Wye   Model=8 kV=0.415  kW=19.199  kvar=6.335 
